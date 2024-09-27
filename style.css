@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "brownhill";
+    src: url(fonts/brownhill_script-webfont.woff);
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url(fonts/HelveticaNowDisplay-Regular.otf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    border-style: dotted none none;
+    width: 6%;
+    border-width: 8px;
+    border-color: #E5D9F2;
+    margin: 70px auto 70px auto;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    width: 40%;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+p {
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.myname {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "brownhill";
+    font-size: 90px;
+}
+
+.myrole {
+    font-family: "Helvetica";
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.topcontainer {
+    position: relative;
+    background-color: #E5D9F2;
+    padding-top: 100px;
+}
+
+.leftcloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.rightcloud {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+
+.middlecontainer {
+    position: relative;
+    padding-top: 50px;
+}
+
+.profile {
+    height: 150px;
+    margin: 20px auto 0px;
+}
+
+.skills {
+    margin: 0 auto 30px;
+    width: 65%;
+}
+
+.skill-row {
+    text-align: left;
+}
+
+.skill-image-first {
+    height: 150px;
+    float: left;
+    margin-left: 100px;
+}
+
+.skill-image-second {
+    height: 150px;
+    margin-right: 100px;
+    float: right;
+}
+
+.bottom-container {
+    background-color: #E5D9F2;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .btn {
+    display: inline-block;
+    margin: 30px 0;
+    padding: 10px 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #405cf5;
+} */
+
+.btn {
+    display: inline-block;
+    background-color: #a24aff;
+    font-family: "Roboto";
+    color: #E5D9F2;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 30px auto 50px;
+}
+
+.btn:hover {
+    background-color: #7d04ff;
+}
+
+.footer-link {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #444444;
+}
+
+.copyright {
+    font-size: 15px;
+    padding: 20px 0 10px;
+}
+
+
